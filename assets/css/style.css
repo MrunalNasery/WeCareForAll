@@ -456,16 +456,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
-  #hero {
-    height: 100vh;
+  
+  .carousel-inner img {
+    height: 400px;
   }
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
+  .youtube-video {
+    height: 580px;
   }
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
+}
+@media (min-width: 768px) {
+  
+  .carousel-inner img {
+    height: 800px;
+  }
+  .youtube-video {
+    height: 580px;
+  }
+}
+
+@media (max-width: 512px) {
+  
+  .carousel-inner img {
+    height: 400px; 
+    padding-top: 50px;
+  }
+  .youtube-video {
+    height: 400px;
   }
 }
 
